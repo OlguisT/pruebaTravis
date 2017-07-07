@@ -1,5 +1,4 @@
 language: php
-<<<<<<< HEAD
 
 dist: xenial
 
@@ -17,17 +16,6 @@ install: ./install-dependencies.sh
 before_script: true
 
 script: 
-- phpunit Test.php
+- phpunit text.php
 
 
-notifications:
-  email:
-    - diegocarrera2000@gmail.com
-irc: "irc.freenode.org#yourfavouriteroomfortravis"
-=======
-dist: xenial
-php:
- - 7.0
- 
-script: phpunit text.php
->>>>>>> 68918d936ff094fe532c11b9cfdfb781254f5642
